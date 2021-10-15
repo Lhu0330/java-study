@@ -10,6 +10,7 @@ public class Person {
 	}
 	public void setAge(int age) {
 		this.age = age;
+		//this는 본인 클래스의 객체를 가르킴
 	}
 	public String getName() {
 		return name;
