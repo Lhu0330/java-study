@@ -32,7 +32,7 @@ public class Randomword {
 			sb.append(' ');
 		}
 
-		System.out.println(selectword);
+
 		return sb.toString();
 	}
 
@@ -50,5 +50,14 @@ public class Randomword {
 				characters[i] = c;
 			}
 		}
+	}
+
+	public boolean isCompleted() {
+		for(char c : characters) {
+			if(c=='\u0000') {
+				return false; //아직 맞출 문자가 있음
+			}
+		}
+		return true;
 	}
 }
