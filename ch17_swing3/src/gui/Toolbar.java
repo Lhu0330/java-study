@@ -27,8 +27,16 @@ public class Toolbar extends JToolBar {
 		JButton redButton = new JButton("RED");
 		JButton blueButton = new JButton("BLUE");
 		
-		redButton.addActionListener(new ColorListener(colorChanger, Color.RED));
-		blueButton.addActionListener(new ColorListener(colorChanger, Color.BLUE));
+		redButton.addActionListener(new ActionListener() { //익명ㅋ ㅡㄹ래스
+
+			public void actionPerformed(ActionEvent e) {
+				colorChanger.changColor(Color.RED); //마우스 클릭시 실행
+				
+			}
+			
+		});
+		//람다식
+		blueButton.addActionListener(e->colorChanger.changColor(Color.BLUE));
 		
 		add(redButton);
 		add(blueButton);
