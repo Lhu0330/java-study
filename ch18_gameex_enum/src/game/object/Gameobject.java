@@ -2,13 +2,13 @@ package game.object;
 
 public enum Gameobject {
 	
-	°¡À§, ¹ÙÀ§, º¸;
+	ê°€ìœ„, ë°”ìœ„, ë³´;
 
 	private int[][] comparison = {
-			//      °¡À§ ¹ÙÀ§ º¸
-			/*°¡À§*/ {0, -1, 1},
-			/*¹ÙÀ§*/ {1, 0, -1},
-			/*º¸*/  {-1, 1, 0},
+			//      ê°€ìœ„ ë°”ìœ„ ë³´
+			/*ê°€ìœ„*/ {0, -1, 1},
+			/*ë°”ìœ„*/ {1, 0, -1},
+			/*ë³´*/  {-1, 1, 0},
 	};
 	
 	public int compareto(Gameobject ob) {

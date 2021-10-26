@@ -6,46 +6,46 @@ public class Twelveanimal {
 		String animal = "";
 		switch (birthYear % 12) {
 		case 0: 
-			animal = "¿ø¼şÀÌ";
+			animal = "ì›ìˆ­ì´";
 			break;
 		case 1: 
-			animal = "´ß";
+			animal = "ë‹­";
 			break;
 		case 2: 
-			animal = "°³";
+			animal = "ê°œ";
 			break;
 		case 3: 
-			animal = "µÅÁö";
+			animal = "ë¼ì§€";
 			break;
 		case 4: 
-			animal = "Áã";
+			animal = "ì¥";
 			break;
 		case 5: 
-			animal = "¼Ò";
+			animal = "ì†Œ";
 			break;
 		case 6: 
-			animal = "È£¶ûÀÌ";
+			animal = "í˜¸ë‘ì´";
 			break;
 		case 7: 
-			animal = "Åä³¢";
+			animal = "í† ë¼";
 			break;
 		case 8: 
-			animal = "¿ë";
+			animal = "ìš©";
 			break;
 		case 9: 
-			animal = "¹ì";
+			animal = "ë±€";
 			break;
 		case 10: 
-			animal = "¸»";
+			animal = "ë§";
 			break;
 		case 11: 
-			animal = "¾ç";
+			animal = "ì–‘";
 			break;
 		default: 
 			animal = "ERROR!";
 			break;
 		}
-		System.out.printf("%d³â => %s¶ì\n", birthYear, animal);
+		System.out.printf("%dë…„ => %së \n", birthYear, animal);
 	}
 	
 	public static void main(String[] args) {

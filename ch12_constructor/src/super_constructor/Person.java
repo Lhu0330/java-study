@@ -12,7 +12,7 @@ public class Person {
 	}
 
 	public Person(String name) {
-		System.out.println("Person »ı¼ºÀÚ!");
+		System.out.println("Person ìƒì„±ì!");
 		this.name= name;
 	}
 	

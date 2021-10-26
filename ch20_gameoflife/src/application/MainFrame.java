@@ -8,14 +8,14 @@ public class MainFrame extends JFrame {
 	private GamePanel gamepanel = new GamePanel();
 	
 	public MainFrame() {
-		super("Game OF Life"); //Å¸ÀÌÆ² ¸í
+		super("Game OF Life"); //íƒ€ì´í‹€ ëª…
 		
-		setLayout(new BorderLayout()); // ·¹ÀÌ¾Æ¿ô ±¸¿ª¼³Á¤
-		add(gamepanel, BorderLayout.CENTER); //°ÔÀÓÆĞ³ÎÀÌ °¡¿îµ¥
+		setLayout(new BorderLayout()); // ë ˆì´ì•„ì›ƒ êµ¬ì—­ì„¤ì •
+		add(gamepanel, BorderLayout.CENTER); //ê²Œì„íŒ¨ë„ì´ ê°€ìš´ë°
 		
-		setSize(800, 600); //Ã¢ »çÀÌÁî
-		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); //Ã¢À» ´İÀ»¶§ ÇÁ·Î±×·¥ Á¾·á			
-		setVisible(true); //º¸ÀÌ°Ô ÇÏ±â	
+		setSize(800, 600); //ì°½ ì‚¬ì´ì¦ˆ
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); //ì°½ì„ ë‹«ì„ë•Œ í”„ë¡œê·¸ë¨ ì¢…ë£Œ			
+		setVisible(true); //ë³´ì´ê²Œ í•˜ê¸°	
 	}
 
 }

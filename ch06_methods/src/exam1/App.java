@@ -3,7 +3,7 @@ package exam1;
 public class App {
 
 	public static void main(String[] args) {
-		// ¸Ş´º Å¬·¡½º¸¦ °¡Á®¿Í¼­ ¸Ş´º °´Ã¼¸¦ ¸¸µé°í ¸Ş¼Òµå¸¦ »ç¿ëÇØ ¸Ş´º¸¦ Ç¥½Ã
+		// ë©”ë‰´ í´ë˜ìŠ¤ë¥¼ ê°€ì ¸ì™€ì„œ ë©”ë‰´ ê°ì²´ë¥¼ ë§Œë“¤ê³  ë©”ì†Œë“œë¥¼ ì‚¬ìš©í•´ ë©”ë‰´ë¥¼ í‘œì‹œ
 		Menu menu = new Menu();
 		
 		menu.display();0

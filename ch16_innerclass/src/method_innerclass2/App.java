@@ -9,7 +9,7 @@ public class App {
 	private String name;
 
 	public App() {
-		name = "¾Ù¸®ÀÚº£½º";
+		name = "ì•¨ë¦¬ìë² ìŠ¤";
 	}
 
 	public String getName() {
@@ -17,12 +17,12 @@ public class App {
 	}
 
 	public void run() {
-//		System.out.println(name);//ÀÌ¸§À» Ãâ·Â
+//		System.out.println(name);//ì´ë¦„ì„ ì¶œë ¥
 //		class Printer implements Runnable {
 //
 //			@Override
-//			public void run() {//Ãß»ó ¸Ş¼Òµå ¿Ï¼º
-//				System.out.println(name); //Å¸ÀÌ¸Ó·Î ¹İº¹ÇÒ ÄÚµå
+//			public void run() {//ì¶”ìƒ ë©”ì†Œë“œ ì™„ì„±
+//				System.out.println(name); //íƒ€ì´ë¨¸ë¡œ ë°˜ë³µí•  ì½”ë“œ
 //				
 //			}
 //		}
@@ -38,7 +38,7 @@ public class App {
 	}
 
 	public static void main(String[] args) {
-//		¸Ş¼Òµå ¾ÈÀÇ Å¬·¡½º
+//		ë©”ì†Œë“œ ì•ˆì˜ í´ë˜ìŠ¤
 		App app = new App();
 		app.run();
 

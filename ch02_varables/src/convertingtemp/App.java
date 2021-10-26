@@ -3,12 +3,12 @@ package convertingtemp;
 public class App {
 
 	public static void main(String[] args) {
-		// ¼·¾¾(celsius ¼¿½Ã¿ì½º) -> È­¾¾(fahrenheitÆÛ·»ÇÏÀÌÆ®) º¯È¯
+		// ì„­ì”¨(celsius ì…€ì‹œìš°ìŠ¤) -> í™”ì”¨(fahrenheití¼ë Œí•˜ì´íŠ¸) ë³€í™˜
 
 		double celsius = 25;
 		double fahrenheit = (celsius * 9/5) + 32;
 
-		System.out.println("¼·¾¾ " + celsius + "´Â È­¾¾" + fahrenheit + "ÀÌ´Ù.");
+		System.out.println("ì„­ì”¨ " + celsius + "ëŠ” í™”ì”¨" + fahrenheit + "ì´ë‹¤.");
 	}
 
 }

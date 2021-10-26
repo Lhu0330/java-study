@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Scope {
 
 	public static void main(String[] args) {
-		// º¯¼öÀÇ ¹üÀ§´Â ÄÚµåºí·ÏÀ¸·Î °áÁ¤
+		// ë³€ìˆ˜ì˜ ë²”ìœ„ëŠ” ì½”ë“œë¸”ë¡ìœ¼ë¡œ ê²°ì •
 		{
 			int value = 0;
 			System.out.println(value);
@@ -26,7 +26,7 @@ public class Scope {
 		String input = null;
 
 		do {
-			System.out.println("Á¾·áÇÏ·Á¸é 'quit'¸¦ ÀÔ·ÂÇÏ¼¼¿ä");
+			System.out.println("ì¢…ë£Œí•˜ë ¤ë©´ 'quit'ë¥¼ ì…ë ¥í•˜ì„¸ìš”");
 			input = scanner.nextLine();
 		} while (!input.equals("quit"));
 

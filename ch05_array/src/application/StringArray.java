@@ -3,9 +3,9 @@ package application;
 public class StringArray {
 
 	public static void main(String[] args) {
-		// ¹®ÀÚ¿­·Î ¸¸µç ¹è¿­
+		// ë¬¸ìì—´ë¡œ ë§Œë“  ë°°ì—´
 		
-		String[] animals = {"°í¾çÀÌ", "°³", "Æë±Ï", "»çÀÚ"};
+		String[] animals = {"ê³ ì–‘ì´", "ê°œ", "í­ê·„", "ì‚¬ì"};
 		
 		System.out.println(animals[0]);
 		System.out.println(animals[1]);
@@ -13,7 +13,7 @@ public class StringArray {
 		System.out.println(animals[3]);
 //		System.out.println(animals[4]);
 		
-		animals[0] = "´ß";
+		animals[0] = "ë‹­";
 		
 		System.out.println(animals[0]);
 		System.out.println(animals[1]);

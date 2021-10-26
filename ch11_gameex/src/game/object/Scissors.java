@@ -1,10 +1,10 @@
 package game.object;
 
 public class Scissors extends Gameobject {
-	// °¡À§ ¹ÙÀ§ º¸ 0 1 2
-	// °¡À§ °´Ã¼ »ı¼º
+	// ê°€ìœ„ ë°”ìœ„ ë³´ 0 1 2
+	// ê°€ìœ„ ê°ì²´ ìƒì„±
 	public Scissors() {
 		setId(0);
-		setName("°¡À§");
+		setName("ê°€ìœ„");
 	}
 }

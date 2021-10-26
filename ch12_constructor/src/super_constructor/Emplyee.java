@@ -3,8 +3,8 @@ package super_constructor;
 public class Emplyee extends Person {
 	
 	public Emplyee() {
-		super("ÀÍ¸í");
-		System.out.println("employee »ı¼ºÀÚ!");
+		super("ìµëª…");
+		System.out.println("employee ìƒì„±ì!");
 	}
 
 }

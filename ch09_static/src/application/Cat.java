@@ -2,10 +2,10 @@ package application;
 
 public class Cat {
 	private String name;
-	public static final String FOOD = "°í¾ßÀÌ »ç·á";
+	public static final String FOOD = "ê³ ì•¼ì´ ì‚¬ë£Œ";
 	private static int count = 0;
 	
-	public Cat(String name) { //»ı¼ºÀÚ´Â ¸®ÅÏ Å¸ÀÔÀÌ ¾øÀ½(ÀÏ¹İ¸Ş¼Òµå¶û ´Ù¸§)
+	public Cat(String name) { //ìƒì„±ìëŠ” ë¦¬í„´ íƒ€ì…ì´ ì—†ìŒ(ì¼ë°˜ë©”ì†Œë“œë‘ ë‹¤ë¦„)
 		this.name = name;
 		count++;
 	}
@@ -16,9 +16,9 @@ public class Cat {
 		
 	}
 	
-	public static int getCount() { // ½ºÅ×Æ½¸Ş¼Òµå 
+	public static int getCount() { // ìŠ¤í…Œí‹±ë©”ì†Œë“œ 
 //		String n = name;
-//		½ºÅ×Æ½ ¸Ş¼Òµå´Â ÀÎ½ºÅÏ½º º¯¼ö »ç¿ë ºÒ°¡
+//		ìŠ¤í…Œí‹± ë©”ì†Œë“œëŠ” ì¸ìŠ¤í„´ìŠ¤ ë³€ìˆ˜ ì‚¬ìš© ë¶ˆê°€
 		return count;
 	}
 }

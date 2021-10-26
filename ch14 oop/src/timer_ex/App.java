@@ -12,7 +12,7 @@ class Task extends TimerTask {
 
 	@Override
 	public void run() {
-		System.out.println("Çï·Î¿ì!");
+		System.out.println("í—¬ë¡œìš°!");
 
 	}
 
@@ -22,7 +22,7 @@ class a extends TimerTask {
 
 	@Override
 	public void run() {
-		JOptionPane.showMessageDialog(null, "°è¶õ »î±â ¿Ï·á");		
+		JOptionPane.showMessageDialog(null, "ê³„ëž€ ì‚¶ê¸° ì™„ë£Œ");		
 	}
 	
 }

@@ -2,10 +2,10 @@ package exam1;
 
 public class Menu {
 	
-	String[] options = {"¾ÆÀÌÅÛ º¸±â", "¾ÆÀÌÅÛÁÖ±â", "¾ÆÀÌÅÛ»èÁ¦", "Á¾·á"};
+	String[] options = {"ì•„ì´í…œ ë³´ê¸°", "ì•„ì´í…œì£¼ê¸°", "ì•„ì´í…œì‚­ì œ", "ì¢…ë£Œ"};
 	
 	void display() {
-		System.out.println("¸Ş´º¸¦ ¼±ÅÃ: ");
+		System.out.println("ë©”ë‰´ë¥¼ ì„ íƒ: ");
 		
 		for(int i = 0; i<options.length;i++) {
 			System.out.printf(" %d. %s\n", i, options[i]);

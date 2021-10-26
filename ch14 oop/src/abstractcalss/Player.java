@@ -4,7 +4,7 @@ public class Player extends Gameobject {
 
 	@Override
 	public void describe() {
-		System.out.println("ÇÃ·¹ÀÌ¾îÀÔ´Ï´Ù.");
+		System.out.println("í”Œë ˆì´ì–´ì…ë‹ˆë‹¤.");
 		
 	}
 

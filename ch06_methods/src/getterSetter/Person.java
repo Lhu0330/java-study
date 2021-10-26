@@ -1,16 +1,16 @@
 package getterSetter;
 
 public class Person {
-	//Å¬·¡½º ¾È¿¡ ¸¸µç º¯¼ö¸¦ ÀÎ½ºÅÏ½º º¯¼ö => °´Ã¼ »ı¼º½Ã »ı¼ºµÊ
+	//í´ë˜ìŠ¤ ì•ˆì— ë§Œë“  ë³€ìˆ˜ë¥¼ ì¸ìŠ¤í„´ìŠ¤ ë³€ìˆ˜ => ê°ì²´ ìƒì„±ì‹œ ìƒì„±ë¨
 	private String name;
 	private int age;
-	//get, set ¸Ş¼Òµå·Î ÀÎ½ºÅÏ½º º¯¼ö¿¡ Á¢±Ù
+	//get, set ë©”ì†Œë“œë¡œ ì¸ìŠ¤í„´ìŠ¤ ë³€ìˆ˜ì— ì ‘ê·¼
 	public void setName(String name) {
-		this.name = name; // this´Â ÀÎ½ºÅÏ½º
+		this.name = name; // thisëŠ” ì¸ìŠ¤í„´ìŠ¤
 	}
 	public void setAge(int age) {
 		this.age = age;
-		//this´Â º»ÀÎ Å¬·¡½ºÀÇ °´Ã¼¸¦ °¡¸£Å´
+		//thisëŠ” ë³¸ì¸ í´ë˜ìŠ¤ì˜ ê°ì²´ë¥¼ ê°€ë¥´í‚´
 	}
 	public String getName() {
 		return name;

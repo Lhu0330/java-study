@@ -1,15 +1,15 @@
 package school;
 
 public class Student {
-	//º¯¼ö
+	//ë³€ìˆ˜
 	private String name;
 	private int age;
 	private boolean isVisible;
 	private double temperature;
 	
 	public Student() {
-		//±âº»»ı¼ºÀÚ
-		name="ÀÌ¸§¸ğ¸§";
+		//ê¸°ë³¸ìƒì„±ì
+		name="ì´ë¦„ëª¨ë¦„";
 		age=18;
 		isVisible=false;
 		temperature=36.0;
@@ -48,10 +48,10 @@ public class Student {
 		this.temperature = temperature;
 	}
 	
-	//°ÔÅÍ ¼ÂÅÍ ÀÚµ¿
+	//ê²Œí„° ì…‹í„° ìë™
 	
 	public String toString() {
-		String text = "Student [ÀÌ¸§: " + name + " ³ªÀÌ: "+age+" Ã¼¿Â: "+temperature+"]";
+		String text = "Student [ì´ë¦„: " + name + " ë‚˜ì´: "+age+" ì²´ì˜¨: "+temperature+"]";
 		return text;
 	}
 

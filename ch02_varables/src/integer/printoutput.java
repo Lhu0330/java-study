@@ -3,11 +3,11 @@ package integer;
 public class printoutput {
 
 	public static void main(String[] args) {
-		// ¹®ÀÚ¿­ + ¼ıÀÚ => ¹®ÀÚ¿­·Î ÀÚµ¿º¯È¯
+		// ë¬¸ìì—´ + ìˆ«ì => ë¬¸ìì—´ë¡œ ìë™ë³€í™˜
 		int x = 5;
 		int y = 7;
 		int z = x + y;
-		System.out.println("x + y ÀÇ °ªÀº "+ z);
+		System.out.println("x + y ì˜ ê°’ì€ "+ z);
 
 	}
 

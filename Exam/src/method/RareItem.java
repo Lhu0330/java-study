@@ -10,9 +10,9 @@ public class RareItem {
 	}
 	public static void wear ( int hp, int mp) {
 		if (hp>=2000 && mp>=2000)
-			System.out.println("¾ÆÀÌÅÛ ÀåÂø¿Ï·á");
+			System.out.println("ì•„ì´í…œ ì¥ì°©ì™„ë£Œ");
 		else
-			System.out.println("¾ÆÀÌÅÛÀ» Âø¿ëÇÒ ¼ö ¾ø½À´Ï´Ù.");
+			System.out.println("ì•„ì´í…œì„ ì°©ìš©í•  ìˆ˜ ì—†ìŠµë‹ˆë‹¤.");
 		
 	}
 

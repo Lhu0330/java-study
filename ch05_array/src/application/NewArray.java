@@ -3,8 +3,8 @@ package application;
 public class NewArray {
 
 	public static void main(String[] args) {
-		// new Å°¿öµå·Î ¹è¿­ »ı¼º
-		int[] numbers = new int[3]; // intÇü ¹è¿­ 3°³ÀÇ ¾ÆÀÌÅÛ
+		// new í‚¤ì›Œë“œë¡œ ë°°ì—´ ìƒì„±
+		int[] numbers = new int[3]; // intí˜• ë°°ì—´ 3ê°œì˜ ì•„ì´í…œ
 		
 		for (int i = 0; i< numbers.length; i++) {
 			System.out.println(numbers[i]);

@@ -11,7 +11,7 @@ public class App {
 
 		SwingUtilities.invokeLater(() -> {
 			
-			JFrame mainFrame = new MainFrame("ев╫╨ф╝ ╫╨ю╝");
+			JFrame mainFrame = new MainFrame("М┘▄Л┼╓М┼╦ Л┼╓Л°≥");
 
 			
 		});

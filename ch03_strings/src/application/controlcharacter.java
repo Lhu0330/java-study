@@ -4,9 +4,9 @@ public class controlcharacter {
 
 	public static void main(String[] args) {
 		System.out.println("===================================");
-		System.out.println("\tÅÇ\tÅÇ¸¸Å­ ¶Ù¿ó´Ï´Ù.");
+		System.out.println("\tíƒ­\tíƒ­ë§Œí¼ ë›°ì›ë‹ˆë‹¤.");
 		System.out.println("===================================");
-		System.out.println("ÀÚ¹Ù¸¦\n¹è¿ì°í\nÀÖ½À´Ï´Ù.");
+		System.out.println("ìë°”ë¥¼\në°°ìš°ê³ \nìˆìŠµë‹ˆë‹¤.");
 
 	}
 

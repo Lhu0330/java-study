@@ -5,26 +5,26 @@ import java.util.Scanner;
 public class Ifelseifelse {
 
 	public static void main(String[] args) {
-		// if¹®
-		Scanner scanner = new Scanner(System.in); // ½ºÄ³³Ê »ı¼º
+		// ifë¬¸
+		Scanner scanner = new Scanner(System.in); // ìŠ¤ìºë„ˆ ìƒì„±
 
-		System.out.println("»ç°úÀÇ °¹¼ö´Â ? ");
+		System.out.println("ì‚¬ê³¼ì˜ ê°¯ìˆ˜ëŠ” ? ");
 
 		int apples = scanner.nextInt();
 
-		System.out.println("¹Ù³ª³ªÀÇ °¹¼ö´Â ? ");
+		System.out.println("ë°”ë‚˜ë‚˜ì˜ ê°¯ìˆ˜ëŠ” ? ");
 		int bananas = scanner.nextInt();
 
 		if (apples > bananas) {
-			System.out.println("»ç°ú°¡ ¹Ù³ª³ªº¸´Ù ¸¹À½");
+			System.out.println("ì‚¬ê³¼ê°€ ë°”ë‚˜ë‚˜ë³´ë‹¤ ë§ìŒ");
 		} 
-		else if(apples < bananas)  { // if¹®ÀÇ Á¶°ÇÀÌ falseÀÏ¶§ ½ÇÇà
-			System.out.println("¹Ù³ª³ª°¡ »ç°úº¸´Ù ¸¹À½");
+		else if(apples < bananas)  { // ifë¬¸ì˜ ì¡°ê±´ì´ falseì¼ë•Œ ì‹¤í–‰
+			System.out.println("ë°”ë‚˜ë‚˜ê°€ ì‚¬ê³¼ë³´ë‹¤ ë§ìŒ");
 		}
 		else {
-			System.out.println("¹Ù³ª³ª¿Í »ç°ú°¡ °°À½");
+			System.out.println("ë°”ë‚˜ë‚˜ì™€ ì‚¬ê³¼ê°€ ê°™ìŒ");
 		}
-		System.out.println("ÇÁ·Î±×·¥ Á¾·á.");
+		System.out.println("í”„ë¡œê·¸ë¨ ì¢…ë£Œ.");
 
 	}
 

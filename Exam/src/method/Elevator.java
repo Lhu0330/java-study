@@ -4,10 +4,10 @@ public class Elevator {
 	public static String  guide(int a) {
 		String b;
 		if (a<11) {
-			b = "ÀúÃş";
+			b = "ì €ì¸µ";
 		}
 		else {
-			b = "°íÃş";
+			b = "ê³ ì¸µ";
 		}
 		return b;
 		
@@ -18,9 +18,9 @@ public class Elevator {
 		int b = 7;
 		int c = 10;
 		
-		System.out.printf("%dÃş -> %s ¿¤¸®º£ÀÌÆ®\n", a, guide(a));
-		System.out.printf("%dÃş -> %s ¿¤¸®º£ÀÌÆ®\n", b, guide(b));
-		System.out.printf("%dÃş -> %s ¿¤¸®º£ÀÌÆ®\n", c, guide(c));
+		System.out.printf("%dì¸µ -> %s ì—˜ë¦¬ë² ì´íŠ¸\n", a, guide(a));
+		System.out.printf("%dì¸µ -> %s ì—˜ë¦¬ë² ì´íŠ¸\n", b, guide(b));
+		System.out.printf("%dì¸µ -> %s ì—˜ë¦¬ë² ì´íŠ¸\n", c, guide(c));
 	}
 
 

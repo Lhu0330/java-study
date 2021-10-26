@@ -6,12 +6,12 @@ import javax.swing.JPanel;
 public class GamePanel extends JPanel {
 	private static final long serialVersionUID = 1L;
 
-	private final static int CELLSIZE = 50; // °İÀÚÀÇ Å©±â ¼³Á¤
-	private final static Color backgroundColor = Color.BLACK; // ¹è°æ»ö °ËÀº»ö
-	private final static Color gridColor = Color.GRAY; // °İÀÚ¼±»ö È¸»ö
+	private final static int CELLSIZE = 50; // ê²©ìì˜ í¬ê¸° ì„¤ì •
+	private final static Color backgroundColor = Color.BLACK; // ë°°ê²½ìƒ‰ ê²€ì€ìƒ‰
+	private final static Color gridColor = Color.GRAY; // ê²©ìì„ ìƒ‰ íšŒìƒ‰
 
-	private int topBottomMargin; // À§¾Æ·¡ ¸¶Áø
-	private int leftRightMargin; // ¿ŞÂÊ ¿À¸¥ÂÊ ¸¶Áø
+	private int topBottomMargin; // ìœ„ì•„ë˜ ë§ˆì§„
+	private int leftRightMargin; // ì™¼ìª½ ì˜¤ë¥¸ìª½ ë§ˆì§„
 
 	public GamePanel() {
 		setBackground(Color.BLUE);
@@ -19,17 +19,17 @@ public class GamePanel extends JPanel {
 
 	@Override
 	protected void paintComponent(Graphics g) {
-		// ÀÌ ¸Ş¼Òµå´Â ÀÚµ¿À¸·Î ½ÃÀÛ ¹× ¼öÁ¤½Ã ÀÚ½ÅÀÇ ¸ğ½ÀÀ» ±×¸°´Ù.
-		Graphics2D g2 = (Graphics2D) g; // 2D±×·¡ÇÈÀ» »ç¿ëÇÏ±â À§ÇØ
+		// ì´ ë©”ì†Œë“œëŠ” ìë™ìœ¼ë¡œ ì‹œì‘ ë° ìˆ˜ì •ì‹œ ìì‹ ì˜ ëª¨ìŠµì„ ê·¸ë¦°ë‹¤.
+		Graphics2D g2 = (Graphics2D) g; // 2Dê·¸ë˜í”½ì„ ì‚¬ìš©í•˜ê¸° ìœ„í•´
 
-		int width = getWidth(); // °¡·Î±æÀÌ
-		int height = getHeight(); // ¼¼·Î±æÀÌ
+		int width = getWidth(); // ê°€ë¡œê¸¸ì´
+		int height = getHeight(); // ì„¸ë¡œê¸¸ì´
 
 		leftRightMargin = ((width % CELLSIZE) + CELLSIZE) / 2;
 		topBottomMargin = ((height % CELLSIZE) + CELLSIZE) / 2;
 
-		g2.setColor(backgroundColor); // »ö ¼³Á¤
-		g2.fillRect(0, 0, width, height); // »ç°¢ÇüÀÇ ÁÂÇ¥¿¡ »öÀ» Ä¥ÇÔ
+		g2.setColor(backgroundColor); // ìƒ‰ ì„¤ì •
+		g2.fillRect(0, 0, width, height); // ì‚¬ê°í˜•ì˜ ì¢Œí‘œì— ìƒ‰ì„ ì¹ í•¨
 
 		drawGrid(g2, width, height);
 		
@@ -39,8 +39,8 @@ public class GamePanel extends JPanel {
 	}
 
 	private void fillCell(Graphics2D g2, int row, int col, boolean status) {
-		// »ç°¢Çü¿¡ »öÀ» ³Ö´Â ¸Ş¼Òµå(±×·¡ÇÈ, °¡·Î , ¼¼·Î ,»óÅÂ(true¸é ³ì»ö,false ¹è°æ»ö)
-		Color color = status ? Color.GREEN : backgroundColor; //»ïÇ×¿¬»êÀÚ status°¡ true¸é ³ì»ö
+		// ì‚¬ê°í˜•ì— ìƒ‰ì„ ë„£ëŠ” ë©”ì†Œë“œ(ê·¸ë˜í”½, ê°€ë¡œ , ì„¸ë¡œ ,ìƒíƒœ(trueë©´ ë…¹ìƒ‰,false ë°°ê²½ìƒ‰)
+		Color color = status ? Color.GREEN : backgroundColor; //ì‚¼í•­ì—°ì‚°ì statusê°€ trueë©´ ë…¹ìƒ‰
 		g2.setColor(color);
 		
 		int x = leftRightMargin + (col*CELLSIZE);
@@ -50,15 +50,15 @@ public class GamePanel extends JPanel {
 	}
 
 	private void drawGrid(Graphics2D g2, int width, int height) {
-		// °İÀÚ ÁÙÀ» ±ß´Â ¸Ş¼Òµå
-		g2.setColor(gridColor);// »ö¼³Á¤ °ËÁ¤»ö
+		// ê²©ì ì¤„ì„ ê¸‹ëŠ” ë©”ì†Œë“œ
+		g2.setColor(gridColor);// ìƒ‰ì„¤ì • ê²€ì •ìƒ‰
 
 		for (int x = leftRightMargin; x <= width - leftRightMargin; x += CELLSIZE) {
-			// ÁÙÀ» ±ß´Â ¸Ş¼Òµå(x1,y1) (x2,y2)
+			// ì¤„ì„ ê¸‹ëŠ” ë©”ì†Œë“œ(x1,y1) (x2,y2)
 			g2.drawLine(x, topBottomMargin, x, height - topBottomMargin);
 		}
 		for (int y = topBottomMargin; y <= width - topBottomMargin; y += CELLSIZE) {
-			// ÁÙÀ» ±ß´Â ¸Ş¼Òµå(x1,y1) (x2,y2)
+			// ì¤„ì„ ê¸‹ëŠ” ë©”ì†Œë“œ(x1,y1) (x2,y2)
 			g2.drawLine(leftRightMargin, y, width - leftRightMargin, y);
 
 		}

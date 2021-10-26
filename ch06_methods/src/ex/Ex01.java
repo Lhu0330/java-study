@@ -6,7 +6,7 @@ public class Ex01 {
 
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
-		System.out.println("¾ËÆÄºª ÇÑ ¹®ÀÚ¸¦ ÀÔ·ÂÇÏ¼¼¿ä>> ");
+		System.out.println("ì•ŒíŒŒë²³ í•œ ë¬¸ìžë¥¼ ìž…ë ¥í•˜ì„¸ìš”>> ");
 		String I = scanner.nextLine();
 		scanner.close();
 		

@@ -2,7 +2,7 @@ package application;
 
 import java.util.Random;
 
-/*·£´ı ´Ü¾î ¸¸µå´Â »çÀÌÆ®
+/*ëœë¤ ë‹¨ì–´ ë§Œë“œëŠ” ì‚¬ì´íŠ¸
  * http://randomwordgenerator.com
  * https://www.browserling.com/tools/newlines-to-spaces
  */
@@ -12,12 +12,12 @@ public class Randomword {
 
 	
 	private Random random = new Random();
-	private String selectword = words[random.nextInt(words.length)];// ·£´ıÀ¸·Î ´Ü¾î¸¦ ¼±ÅÃ
-	private char[] characters; // ¹®ÀÚ ¹è¿­ °ø°£ »ı¼º
+	private String selectword = words[random.nextInt(words.length)];// ëœë¤ìœ¼ë¡œ ë‹¨ì–´ë¥¼ ì„ íƒ
+	private char[] characters; // ë¬¸ì ë°°ì—´ ê³µê°„ ìƒì„±
 
 	public Randomword() {
 		selectword = words[random.nextInt(words.length)];
-		characters = new char[selectword.length()]; // ¹®ÀÚ ¹è¿­ °ø°£ »ı¼º
+		characters = new char[selectword.length()]; // ë¬¸ì ë°°ì—´ ê³µê°„ ìƒì„±
 	}
 
 	public String toString() {
@@ -43,8 +43,8 @@ public class Randomword {
 	}
 	
 	public void addGuess(char c) {
-		//»ç¿ëÀÚ°¡ ÀÔ·ÂÇÑ ÇÑ ¹«ÀÚ¸¦ ¼±ÅÃµÈ ´Ü¾î¿¡¼­ °°Àº°Ô ÀÖ´ÂÁö È®ÀÎ
-		//ÀÖÀ¸¸é charactersÀÇ ÀÎµ¦½º À§Ä¡¿¡ ÀÔ·Â
+		//ì‚¬ìš©ìê°€ ì…ë ¥í•œ í•œ ë¬´ìë¥¼ ì„ íƒëœ ë‹¨ì–´ì—ì„œ ê°™ì€ê²Œ ìˆëŠ”ì§€ í™•ì¸
+		//ìˆìœ¼ë©´ charactersì˜ ì¸ë±ìŠ¤ ìœ„ì¹˜ì— ì…ë ¥
 		for(int i=0; i < selectword.length(); i++) {
 			if(c == selectword.charAt(i)) {
 				characters[i] = c;
@@ -55,7 +55,7 @@ public class Randomword {
 	public boolean isCompleted() {
 		for(char c : characters) {
 			if(c=='\u0000') {
-				return false; //¾ÆÁ÷ ¸ÂÃâ ¹®ÀÚ°¡ ÀÖÀ½
+				return false; //ì•„ì§ ë§ì¶œ ë¬¸ìê°€ ìˆìŒ
 			}
 		}
 		return true;

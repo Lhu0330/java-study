@@ -3,7 +3,7 @@ package returnValues;
 public class App {
 
 	public static void main(String[] args) {
-		//¸Ş¼ÒµåÀÇ ¸®ÅÏ
+		//ë©”ì†Œë“œì˜ ë¦¬í„´
 		ReturnValue value1 = new ReturnValue();
 		
 		value1.getAnimal();

@@ -3,12 +3,12 @@ package application;
 public class MultiArray {
 
 	public static void main(String[] args) {
-		// ÀÌÁß¹è¿­
+		// ì´ì¤‘ë°°ì—´
 		
 		String[][] texts = {
-				{"ÇÏ³ª", "µÑ", "¼Â"},
-				{"³İ", "´Ù¼¸", "¿©¼¸"},
-				{"ÀÏ°ö", "¿©´ü", "¾ÆÈ©"},
+				{"í•˜ë‚˜", "ë‘˜", "ì…‹"},
+				{"ë„·", "ë‹¤ì„¯", "ì—¬ì„¯"},
+				{"ì¼ê³±", "ì—¬ëŸ", "ì•„í™‰"},
 		};
 		
 		for(int i=0; i< texts.length; i++) {

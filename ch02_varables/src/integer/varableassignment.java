@@ -3,7 +3,7 @@ package integer;
 public class varableassignment {
 
 	public static void main(String[] args) {
-		// º¯¼ö´Â Ç×»ó ÀçÇÒ´ç(°ªÀ» »õ·Î ÀÔ·Â°¡´É) ÇÒ¼ö ÀÖ´Ù.
+		// ë³€ìˆ˜ëŠ” í•­ìƒ ì¬í• ë‹¹(ê°’ì„ ìƒˆë¡œ ì…ë ¥ê°€ëŠ¥) í• ìˆ˜ ìˆë‹¤.
 		int dogs = 8;
 		int cats = 3;
 

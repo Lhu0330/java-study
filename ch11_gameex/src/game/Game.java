@@ -11,11 +11,11 @@ public class Game {
 		Gameobject[] objects = { new Scissors(), new Rock(), new Paper() };
 		Random random = new Random();
 		Scanner scanner = new Scanner(System.in);
-		System.out.println("»ï¼¼ÆÇ °ÔÀÓ ½ÃÀÛÇÕ´Ï´Ù.");
+		System.out.println("ì‚¼ì„¸íŒ ê²Œì„ ì‹œì‘í•©ë‹ˆë‹¤.");
 		int wins = 0;
-		//À¯ÀúÀÇ ¼±ÅÃ
+		//ìœ ì €ì˜ ì„ íƒ
 		for (int i = 1; i <=3 ; i++) {
-		System.out.println("°¡À§(0),¹ÙÀ§(1),º¸(2) Áß ¼ıÀÚ·Î ¼±ÅÃ: ");
+		System.out.println("ê°€ìœ„(0),ë°”ìœ„(1),ë³´(2) ì¤‘ ìˆ«ìë¡œ ì„ íƒ: ");
 				
 		int num1 = scanner.nextInt();
 		int num2 = random.nextInt(objects.length);
@@ -23,20 +23,20 @@ public class Game {
 		Gameobject ob1 = objects[num1];
 		Gameobject ob2 = objects[num2];
 		
-		System.out.println("´ç½ÅÀÇ ¼±ÅÃÀº : " + ob1.getName());
-		System.out.println("ÄÄÇ»ÅÍÀÇ ¼±ÅÃÀº : " + ob2.getName());
+		System.out.println("ë‹¹ì‹ ì˜ ì„ íƒì€ : " + ob1.getName());
+		System.out.println("ì»´í“¨í„°ì˜ ì„ íƒì€ : " + ob2.getName());
 		
 		int score = ob1.compareto(ob2);
 		wins += score;
 		}
 		if (wins > 0 ) {
-			System.out.println("´ç½ÅÀÇ ½Â¸®!");		
+			System.out.println("ë‹¹ì‹ ì˜ ìŠ¹ë¦¬!");		
 		}
 		if (wins < 0 ) {
-			System.out.println("´ç½ÅÀÇ ÆĞ¹è!");
+			System.out.println("ë‹¹ì‹ ì˜ íŒ¨ë°°!");
 		}
 		else {
-			System.out.println("ºñ°å½À´Ï´Ù!");
+			System.out.println("ë¹„ê²¼ìŠµë‹ˆë‹¤!");
 		
 		}
 		scanner.close();

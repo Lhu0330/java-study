@@ -3,17 +3,17 @@ package parameter;
 public class App {
 
 	public static void main(String[] args) {
-		// Ä®Å§·¹ÀÌÅÍ °´Ã¼¸¦ ¸¸µçÈÄ ±× ¸Ş¼Òµå¸¦ square¸¦ ¸Å°³º¯¼ö¸¦ ÀÔ·ÂÇÏ¿© »ç¿ë
+		// ì¹¼í˜ë ˆì´í„° ê°ì²´ë¥¼ ë§Œë“ í›„ ê·¸ ë©”ì†Œë“œë¥¼ squareë¥¼ ë§¤ê°œë³€ìˆ˜ë¥¼ ì…ë ¥í•˜ì—¬ ì‚¬ìš©
 		Calculator calc = new Calculator();
 		int number = 5;
 		int result = calc.square(number);
-		System.out.printf("%dÀÇ Á¦°öÀº %dÀÌ´Ù.\n", number, result);
+		System.out.printf("%dì˜ ì œê³±ì€ %dì´ë‹¤.\n", number, result);
 		
 		result = calc.plus(10,10);
-		System.out.printf("µÎ¼öÀÇ ÇÕÀº %dÀÌ´Ù.\n", result);
+		System.out.printf("ë‘ìˆ˜ì˜ í•©ì€ %dì´ë‹¤.\n", result);
 		
 		result = calc.minus(10,10);
-		System.out.printf("µÎ¼öÀÇ ÇÕÀº %dÀÌ´Ù.\n", result);
+		System.out.printf("ë‘ìˆ˜ì˜ í•©ì€ %dì´ë‹¤.\n", result);
 
 	}
 

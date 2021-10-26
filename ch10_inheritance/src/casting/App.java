@@ -9,7 +9,7 @@ public class App {
 		cat1.hunt();
 		
 		//cat1.call();
-		//cat Å¸ÀÔÀÌ±â ¶§¹®¿¡ °í¾çÀÌ ¸Þ¼Òµå¸¸ »ç¿ë°¡´É(¿À¹ö¶óÀÌµù µÊ)
+		//cat íƒ€ìž…ì´ê¸° ë•Œë¬¸ì— ê³ ì–‘ì´ ë©”ì†Œë“œë§Œ ì‚¬ìš©ê°€ëŠ¥(ì˜¤ë²„ë¼ì´ë”© ë¨)
 		
 		Housecat cat2 = (Housecat)cat1;
 		cat2.call();

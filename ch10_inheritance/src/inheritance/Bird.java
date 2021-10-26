@@ -2,7 +2,7 @@ package inheritance;
 
 public class Bird extends Animal {
 	public void fly() {
-		System.out.println("ÇÏ´ÃÀ» ³­´Ù...");
+		System.out.println("í•˜ëŠ˜ì„ ë‚œë‹¤...");
 	}
 
 }

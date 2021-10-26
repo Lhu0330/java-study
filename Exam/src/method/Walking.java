@@ -3,10 +3,10 @@ package method;
 public class Walking {
 
 	public static void main(String[] args) {
-		// °ÉÀ½¼ö*0.02=Ä®·Î¸® ¼Ò¸ğ·®
+		// ê±¸ìŒìˆ˜*0.02=ì¹¼ë¡œë¦¬ ì†Œëª¨ëŸ‰
 		int walk = 5000;
 		double result = calculateCalory(walk);
-		System.out.println("¼Ò¸ğ Ä®·Î¸®: " + result);
+		System.out.println("ì†Œëª¨ ì¹¼ë¡œë¦¬: " + result);
 	}
 	private static double calculateCalory(int walk) {
 		return 0.02 * walk;

@@ -7,14 +7,14 @@ public class Thermostat {
 	public void setTemperature(double temperature) throws TempOutOfRangeException {
 		
 		if(temperature < 0 || temperature > 35) {
-			//¿Âµµ°ªÀÌ ºñÁ¤»óÀ¸·Î ¿©°Ü¼­ ¿¹¿ÜÃ³¸®ÇÑ´Ù. threow´Â ÀÏ´Ü ¿¹¿Ü¸¦ ³ªÁß¿¡ Ã³¸®
-			throw new Exception("¿Âµµ°¡ ºñÁ¤»ó ÀÔ´Ï´Ù."); 
+			//ì˜¨ë„ê°’ì´ ë¹„ì •ìƒìœ¼ë¡œ ì—¬ê²¨ì„œ ì˜ˆì™¸ì²˜ë¦¬í•œë‹¤. threowëŠ” ì¼ë‹¨ ì˜ˆì™¸ë¥¼ ë‚˜ì¤‘ì— ì²˜ë¦¬
+			throw new Exception("ì˜¨ë„ê°€ ë¹„ì •ìƒ ì…ë‹ˆë‹¤."); 
 			
-			//setTemperature ¸Ş¼Òµå¿¡¼­ ¿¹¿ÜÃ³¸®¸¦ throwÇß±â ¶§¹®¿¡ È£ÃâÇÒ¶§ Ã³¸®ÇØ¾ß ÇÑ´Ù. 
-			//try-catch´Â ¹Ù·Î Ã³¸®, throw´Â ³Ñ±è
+			//setTemperature ë©”ì†Œë“œì—ì„œ ì˜ˆì™¸ì²˜ë¦¬ë¥¼ throwí–ˆê¸° ë•Œë¬¸ì— í˜¸ì¶œí• ë•Œ ì²˜ë¦¬í•´ì•¼ í•œë‹¤. 
+			//try-catchëŠ” ë°”ë¡œ ì²˜ë¦¬, throwëŠ” ë„˜ê¹€
 			
 		}
-		System.out.println("¿Âµµ ¼¼ÆÃ: "+temperature);//¿Âµµ°¡ Á¤»óÀÏ °æ¿ì Ãâ·Â
+		System.out.println("ì˜¨ë„ ì„¸íŒ…: "+temperature);//ì˜¨ë„ê°€ ì •ìƒì¼ ê²½ìš° ì¶œë ¥
 	}
 
 }

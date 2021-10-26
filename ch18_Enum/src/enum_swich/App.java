@@ -7,16 +7,16 @@ public class App {
 		
 		switch(f1) {
 		case ORANGE:
-			System.out.println("¿À·»Áö");
+			System.out.println("ì˜¤ë Œì§€");
 			break;
 		case BANANA:
-			System.out.println("¿À·»Áö");
+			System.out.println("ì˜¤ë Œì§€");
 			break;
 		case APPLE:
-			System.out.println("¿À·»Áö");
+			System.out.println("ì˜¤ë Œì§€");
 			break;
 		default:
-			System.out.println("¾ø´Â °úÀÏÀÔ´Ï´Ù.");
+			System.out.println("ì—†ëŠ” ê³¼ì¼ì…ë‹ˆë‹¤.");
 			break;
 		}
 

@@ -1,10 +1,10 @@
 package polymerphism;
 
 public class Housecat extends Cat {
-	//°°Àº vocal()¸Ş¼Òµå¸¦ ¿À¹ö¶óÀÌµù(°°Àº ¸Ş¼Òµå¿¡ ´Ù¸¥ ³»¿äÀ» ÀÛ¼º) 
+	//ê°™ì€ vocal()ë©”ì†Œë“œë¥¼ ì˜¤ë²„ë¼ì´ë”©(ê°™ì€ ë©”ì†Œë“œì— ë‹¤ë¥¸ ë‚´ìš”ì„ ì‘ì„±) 
 	@Override
 	public void vocal() {
-		System.out.println("¹Ì¾ß¿ì~");
+		System.out.println("ë¯¸ì•¼ìš°~");
 	}
 	
 

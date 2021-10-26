@@ -4,7 +4,7 @@ public class App {
 
 	public static void main(String[] args) {
 		
-		Describable[] objs = {new Person(), new Computer() }; //¸ğµç °´Ã¼´Â ¿ÀºêÁ§Æ® Å¬·¡½º¸¦ »ó¼Ó¹ŞÀ½
+		Describable[] objs = {new Person(), new Computer() }; //ëª¨ë“  ê°ì²´ëŠ” ì˜¤ë¸Œì íŠ¸ í´ë˜ìŠ¤ë¥¼ ìƒì†ë°›ìŒ
 		
 		for (Describable obj : objs) {
 			System.out.println(obj.getDescription());

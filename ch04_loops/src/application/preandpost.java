@@ -2,7 +2,7 @@ package application;
 
 public class preandpost {
 	public static void main(String[] args) {
-		//Áõ°¨¿¬»çÀÚ À§Ä¡¿¡ µû¶ó ¸ÕÀú Áõ°¨ÇÏ°í ÇÒ´ç(=), ¸ÕÀú ÇÒ´ç(=)ÇÏ°í Áõ°¡
+		//ì¦ê°ì—°ì‚¬ì ìœ„ì¹˜ì— ë”°ë¼ ë¨¼ì € ì¦ê°í•˜ê³  í• ë‹¹(=), ë¨¼ì € í• ë‹¹(=)í•˜ê³  ì¦ê°€
 		int cats=5;
 		System.out.println(cats++);
 		System.out.println(cats);

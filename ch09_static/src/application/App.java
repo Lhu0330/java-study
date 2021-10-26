@@ -3,15 +3,15 @@ package application;
 public class App {
 
 	public static void main(String[] args) {
-		// °í¾çÀÌ Å¬·¡½º ºÒ·¯¿À±â
-		Cat cat1 = new Cat("¸¶Æ¿´Ù");
-		Cat cat2 = new Cat("¶óÀÌ¾ğ");
-		Cat cat3 = new Cat("¿ï¹ö¸°");
+		// ê³ ì–‘ì´ í´ë˜ìŠ¤ ë¶ˆëŸ¬ì˜¤ê¸°
+		Cat cat1 = new Cat("ë§ˆí‹¸ë‹¤");
+		Cat cat2 = new Cat("ë¼ì´ì–¸");
+		Cat cat3 = new Cat("ìš¸ë²„ë¦°");
 		
 		System.out.println(cat1);
 		System.out.println(cat2.toString());
 		
-		//½ºÅ×Æ½ º¯¼ö´Â °´Ã¼¿Í »ó°ü¾øÀÌ Å¬·¡½º¸í.º¯¼ö·Î »ç¿ëÇÑ´Ù °´Ã¼ »ı¼ºÇÒ ÇÊ¿ä°¡ ¾ø´Ù
+		//ìŠ¤í…Œí‹± ë³€ìˆ˜ëŠ” ê°ì²´ì™€ ìƒê´€ì—†ì´ í´ë˜ìŠ¤ëª….ë³€ìˆ˜ë¡œ ì‚¬ìš©í•œë‹¤ ê°ì²´ ìƒì„±í•  í•„ìš”ê°€ ì—†ë‹¤
 		System.out.println(Cat.FOOD);
 		System.out.println(Cat.getCount());
 	}	

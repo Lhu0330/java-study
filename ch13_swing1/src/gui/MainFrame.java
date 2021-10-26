@@ -8,9 +8,9 @@ public class MainFrame extends JFrame {
 	private static final long serialVersionUID = 1L;
 
 	public MainFrame(String title) {
-		super(title); //»óÀ§Å¬·¡½º JFrame Å¸ÀÌÆ²À» »ı¼ºÇÏµµ·Ï
+		super(title); //ìƒìœ„í´ë˜ìŠ¤ JFrame íƒ€ì´í‹€ì„ ìƒì„±í•˜ë„ë¡
 		
-		setLayout(new BorderLayout());//¸ŞÀÎÇÁ·¹ÀÓÃ¢¿¡ ÄÄÆ÷³ÊÆ®¸¦ ºÙÀÌ±â À§ÇÔ
+		setLayout(new BorderLayout());//ë©”ì¸í”„ë ˆì„ì°½ì— ì»´í¬ë„ˆíŠ¸ë¥¼ ë¶™ì´ê¸° ìœ„í•¨
 		
 		add(new Toolbar(), BorderLayout.NORTH);
 				
@@ -19,7 +19,7 @@ public class MainFrame extends JFrame {
 		
 		
 		setSize(600, 400);
-		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); // Ã¢À» ´İÀ»¶§ ÇÁ·Î±×·¥ Á¾·á
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); // ì°½ì„ ë‹«ì„ë•Œ í”„ë¡œê·¸ë¨ ì¢…ë£Œ
 		setVisible(true);
 	}
 	

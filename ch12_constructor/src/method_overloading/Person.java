@@ -1,28 +1,28 @@
 package method_overloading;
 
 public class Person {
-	//¸Ş¼Òµå¿À¹ö·Îµù ¸Ş¼ÒµåÀÇ ÀÌ¸§Àº °°Áö¸¸ ¸Å°³º¯¼ö°¡ ´Ù¸¦¶§
+	//ë©”ì†Œë“œì˜¤ë²„ë¡œë”© ë©”ì†Œë“œì˜ ì´ë¦„ì€ ê°™ì§€ë§Œ ë§¤ê°œë³€ìˆ˜ê°€ ë‹¤ë¥¼ë•Œ
 	public void greet() {
-		System.out.println("Çï·Î¿ì!");
+		System.out.println("í—¬ë¡œìš°!");
 	}
 	public void greet(String name) {
-		System.out.println("Çï·Î¿ì! "+name);
+		System.out.println("í—¬ë¡œìš°! "+name);
 	}
 	
 	public void greet(int height) {
 		
 		if(height > 185) {
-			System.out.println("Å°°¡ Å©±º¿ä!");
+			System.out.println("í‚¤ê°€ í¬êµ°ìš”!");
 		}
-		System.out.println("Çï·Î¿ì! "+height);
+		System.out.println("í—¬ë¡œìš°! "+height);
 	}
 	
 	public void greet(int height, String name) {
 		
 		if(height > 185) {
-			System.out.println("Å°°¡ Å©±º¿ä!");
+			System.out.println("í‚¤ê°€ í¬êµ°ìš”!");
 		}
-		System.out.println("Çï·Î¿ì! "+name);
+		System.out.println("í—¬ë¡œìš°! "+name);
 	}
 
 }

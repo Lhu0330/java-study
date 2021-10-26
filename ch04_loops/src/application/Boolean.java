@@ -3,22 +3,22 @@ package application;
 public class Boolean {
 
 	public static void main(String[] args) {
-		// ºÒ¸° Å¸ÀÔÀº Âü, °ÅÁş(true, false)
+		// ë¶ˆë¦° íƒ€ì…ì€ ì°¸, ê±°ì§“(true, false)
 		boolean bool1 = false;
-		System.out.println("Á¶°Ç 1: "+bool1);
+		System.out.println("ì¡°ê±´ 1: "+bool1);
 		
-		//ºñ±³ °á°ú Âü, °ÅÁş (true, false)
+		//ë¹„êµ ê²°ê³¼ ì°¸, ê±°ì§“ (true, false)
 		boolean bool2 = 4< 5;
-		System.out.println("Á¶°Ç2: "+bool2);
+		System.out.println("ì¡°ê±´2: "+bool2);
 		
-		//ºñ±³ °á°ú Âü, °ÅÁş (true, false)
+		//ë¹„êµ ê²°ê³¼ ì°¸, ê±°ì§“ (true, false)
 		boolean bool3 = 14< 5;
-		System.out.println("Á¶°Ç3: "+bool3);
+		System.out.println("ì¡°ê±´3: "+bool3);
 		
-		//ºñ±³ °á°ú Âü, °ÅÁş (true, false)
+		//ë¹„êµ ê²°ê³¼ ì°¸, ê±°ì§“ (true, false)
 		boolean bool4 = 14 != 5;
-		System.out.println("Á¶°Ç4: "+bool4);
-		System.out.printf("Á¶°Ç4: %b \n",bool4);
+		System.out.println("ì¡°ê±´4: "+bool4);
+		System.out.printf("ì¡°ê±´4: %b \n",bool4);
 	}
 
 }

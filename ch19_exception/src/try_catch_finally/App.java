@@ -7,16 +7,16 @@ public class App {
 		Person p1 = new Person();
 		
 		try {
-			p1.setName("ÀÌ¸§");
-			System.out.println("¿©±â´Â ½ÇÇà¾ÈµÊ");
+			p1.setName("ì´ë¦„");
+			System.out.println("ì—¬ê¸°ëŠ” ì‹¤í–‰ì•ˆë¨");
 		} catch (Exception e) {
 			System.out.println(e.getMessage());
 		} finally {
-			//¹«Á¶°Ç ½ÇÇàµÇ´Â °÷
-			System.out.println("¹«Á¶°Ç ½ÇÇà");
+			//ë¬´ì¡°ê±´ ì‹¤í–‰ë˜ëŠ” ê³³
+			System.out.println("ë¬´ì¡°ê±´ ì‹¤í–‰");
 		}
 		
-		System.out.println("ÇÁ·Î±×·¥ Á¾·á");
+		System.out.println("í”„ë¡œê·¸ë¨ ì¢…ë£Œ");
 
 	}
 

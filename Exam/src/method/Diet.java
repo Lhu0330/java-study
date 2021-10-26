@@ -10,13 +10,13 @@ public class Diet {
 	public static String result(double bmi) {
 		String result = "";
 		if (bmi >= 30)
-			result = "ºñ¸¸";
+			result = "ë¹„ë§Œ";
 		else if (bmi >= 25)
-			result = "°úÃ¼Áß";
+			result = "ê³¼ì²´ì¤‘";
 		else if (bmi >= 18.5)
-			result = "Á¤»ó";
+			result = "ì •ìƒ";
 		else
-			result = "ÀúÃ¼Áß";
+			result = "ì €ì²´ì¤‘";
 		return result;
 	}
 	
@@ -27,7 +27,7 @@ public class Diet {
 		
 		double bmi = calculate(w,t);
 		System.out.printf("BMI: %.2f(%.1fkg, %.2fm)\n", bmi, w, t);
-		System.out.printf("°á°ú: %sÀÔ´Ï´Ù.\n", result(bmi));
+		System.out.printf("ê²°ê³¼: %sì…ë‹ˆë‹¤.\n", result(bmi));
 		
 
 	}

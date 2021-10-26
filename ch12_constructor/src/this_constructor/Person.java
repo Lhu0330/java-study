@@ -5,7 +5,7 @@ public class Person {
 	private int age;
 	
 	public Person() {
-		this("ÀÍ¸í", 0);
+		this("ìµëª…", 0);
 	}
 
 	public Person(String name) {
@@ -20,6 +20,6 @@ public class Person {
 
 	@Override
 	public String toString() {
-		return "[ÀÌ¸§ =" + name + ", ³ªÀÌ = " + age + "]";
+		return "[ì´ë¦„ =" + name + ", ë‚˜ì´ = " + age + "]";
 	}
 }

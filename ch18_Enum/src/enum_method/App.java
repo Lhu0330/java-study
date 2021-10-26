@@ -3,14 +3,14 @@ package enum_method;
 public class App {
 
 	public static void main(String[] args) {
-		// values()¸Ş¼Òµå ÇØ´ç enumÀÇ ¸ğµç »ó¼ö¸¦ ÀúÀåÇÑ ¹è¿­À» ¸®ÅÏ
+		// values()ë©”ì†Œë“œ í•´ë‹¹ enumì˜ ëª¨ë“  ìƒìˆ˜ë¥¼ ì €ì¥í•œ ë°°ì—´ì„ ë¦¬í„´
 		Fruit[] fruits = Fruit.values();
 		
 		for(Fruit fruit : fruits) {
 			System.out.println(fruit);
 		}
 		
-		//ordinal ¸Ş¼Òµç´À »ó¼öÀÇ ¼ø¼­¸¦ ¸®ÅÏ
+		//ordinal ë©”ì†Œë“ ëŠ ìƒìˆ˜ì˜ ìˆœì„œë¥¼ ë¦¬í„´
 		System.out.println(Fruit.APPLE.ordinal());
 		System.out.println(Fruit.BANANA.ordinal());
 		System.out.println(Fruit.ORANGE.ordinal());

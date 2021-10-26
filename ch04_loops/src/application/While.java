@@ -3,10 +3,10 @@ package application;
 public class While {
 
 	public static void main(String[] args) {
-		// while(Á¶°Ç¹®) { ¸í·É¹®; }
+		// while(ì¡°ê±´ë¬¸) { ëª…ë ¹ë¬¸; }
 		
 		while(true) {
-			System.out.println("Çï·Î¿ì ¿ùµå!");
+			System.out.println("í—¬ë¡œìš° ì›”ë“œ!");
 			
 		}
 

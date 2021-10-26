@@ -2,28 +2,28 @@ package application;
 
 public class Booleanor {
 	public static void main(String[] args) {
-		//|| or ¿¬»êÀÚ
+		//|| or ì—°ì‚°ì
 		boolean isRaining = false;
 		boolean mightRain = true;
 		
 		boolean haveUmbrella = true;
 		
 		if((isRaining || mightRain) && haveUmbrella) {
-			System.out.println("¿ì»êÀ» ¾´´Ù");
+			System.out.println("ìš°ì‚°ì„ ì“´ë‹¤");
 		
 		}
 		else {
-			System.out.println("¿ì»êÀ» ¾²Áö ¾Ê´Â´Ù");
+			System.out.println("ìš°ì‚°ì„ ì“°ì§€ ì•ŠëŠ”ë‹¤");
 		}
 		
 		boolean rainCheck = isRaining || mightRain;
 		
 		if(rainCheck && haveUmbrella) {
-			System.out.println("¿ì»êÀ» ¾´´Ù");
+			System.out.println("ìš°ì‚°ì„ ì“´ë‹¤");
 		
 		}
 		else {
-			System.out.println("¿ì»êÀ» ¾²Áö ¾Ê´Â´Ù");
+			System.out.println("ìš°ì‚°ì„ ì“°ì§€ ì•ŠëŠ”ë‹¤");
 		}
 		
 	}

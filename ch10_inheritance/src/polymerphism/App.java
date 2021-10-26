@@ -31,16 +31,16 @@ public class App {
 			cats[i].hunt();
 		}
 
-		//Çüº¯È¯ casting
-		//±âº»Å¸ÀÔ
+		//í˜•ë³€í™˜ casting
+		//ê¸°ë³¸íƒ€ì…
 		//int a =1.2345;
 		int b =(int)1.2345;
 		System.out.println(b);
 		
-		//ÂüÁ¶Å¸ÀÔ: ±âº»À» Á¦¿ÜÇÑ Å¬·¡½º Å¸ÀÔ µî
-		Cat cat1 = new Housecat(); //¾÷Ä³½ºÆÃ
+		//ì°¸ì¡°íƒ€ì…: ê¸°ë³¸ì„ ì œì™¸í•œ í´ë˜ìŠ¤ íƒ€ì… ë“±
+		Cat cat1 = new Housecat(); //ì—…ìºìŠ¤íŒ…
 		
-		Housecat cat2 = (Housecat)cat1; // ´Ù¿îÄ³½ºÆÃ(ÇÏÀ§Å¬·¡½º·Î º¯È¯)
+		Housecat cat2 = (Housecat)cat1; // ë‹¤ìš´ìºìŠ¤íŒ…(í•˜ìœ„í´ë˜ìŠ¤ë¡œ ë³€í™˜)
 		
 	}
 

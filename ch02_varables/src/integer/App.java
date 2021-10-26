@@ -2,16 +2,16 @@ package integer;
 
 public class App {
 	public static void main(String[] args) {
-		//º¯¼ö ¸¸µé±â: 1.º¯¼ö ¼±¾ğ(ÀÚ·á¤¾¤·) 2.º¯¼ö ÃÊ±âÈ­
+		//ë³€ìˆ˜ ë§Œë“¤ê¸°: 1.ë³€ìˆ˜ ì„ ì–¸(ìë£Œã…ã…‡) 2.ë³€ìˆ˜ ì´ˆê¸°í™”
 	
-		int x; //int´Â Á¤¼ö ÀÚ·áÇü ¼±¾ğ
-		x=7;	// xÀÇ °ªÀ» ÃÊ±âÈ­
-		int y = 10;	//y´Â Á¤¼öÇü 10 ÃÊ±âÈ­
+		int x; //intëŠ” ì •ìˆ˜ ìë£Œí˜• ì„ ì–¸
+		x=7;	// xì˜ ê°’ì„ ì´ˆê¸°í™”
+		int y = 10;	//yëŠ” ì •ìˆ˜í˜• 10 ì´ˆê¸°í™”
 		int z = x + y; 
 		
 		System.out.println(x);
 		System.out.println(y);
-		System.out.println(z); // ÇÑÁÙº¹»ç ctrl+alt+¾Æ·¡ÂÊ È­»ìÇ¥
+		System.out.println(z); // í•œì¤„ë³µì‚¬ ctrl+alt+ì•„ë˜ìª½ í™”ì‚´í‘œ
 		
 	}
 

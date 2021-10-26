@@ -2,11 +2,11 @@ package casting;
 
 public class Cat {
 	public void vocal() {
-		//°í¾çÀÌ´Â ¾ç¿ÀÀÌ¶ó°í ¿ï°í »ç³ÉÇÒ¼ö ÀÖ´Ù.
-		System.out.println("¾ß¿Ë~");
+		//ê³ ì–‘ì´ëŠ” ì–‘ì˜¤ì´ë¼ê³  ìš¸ê³  ì‚¬ëƒ¥í• ìˆ˜ ìˆë‹¤.
+		System.out.println("ì•¼ì˜¹~");
 	}
 	public void hunt() {
-		System.out.println("»ç³ÉÁß!");
+		System.out.println("ì‚¬ëƒ¥ì¤‘!");
 	}
 
 }

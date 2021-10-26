@@ -9,7 +9,7 @@ class Task extends TimerTask {
 
 	@Override
 	public void run() {
-		System.out.println("Çï·Î¿ì!");
+		System.out.println("í—¬ë¡œìš°!");
 		
 	}
 	

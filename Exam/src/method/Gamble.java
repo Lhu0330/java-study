@@ -46,10 +46,10 @@ public class Gamble {
 	}
 	
 	public static void main(String[] args) {
-		// random 1~6 3¹ø ´«°ª ´õÇÏ°í *1082.25108
+		// random 1~6 3ë²ˆ ëˆˆê°’ ë”í•˜ê³  *1082.25108
 		double dollar = dice() + dice() + dice();
 		double won = exchange(dollar);
-		System.out.printf("È¹µæ±İ¾×: $%.2f(%.0f¿ø)", dollar, won);
+		System.out.printf("íšë“ê¸ˆì•¡: $%.2f(%.0fì›)", dollar, won);
 		
 	}
 

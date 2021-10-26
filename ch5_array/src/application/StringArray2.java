@@ -3,11 +3,11 @@ package application;
 public class StringArray2 {
 
 	public static void main(String[] args) {
-		// StringÀº ±âº» ÀÚ·áÇüÀÌ ¾Æ´Ñ ÂüÁ¶ ÀÚ·áÇü, ÂüÁ¶ º¯¼ö´Â ±âº»ÀûÀ¸·Î ÁÖ¼Ò°ªÀ» °®´Â´Ù.
-		String text = null; //³ÎÀº ÂüÁ¶º¯¼ö¿¡ ÁÖ¼Ò°ªÀÌ ¾øÀ½
-		//text = new String("Hello!"); new´Â ¸Ş¸ğ¸®¿¡ ¹®ÀÚ¿­ °ø°£À» ¸¸µë
-//		text = new String("Çï·Î¿ì!");
-		text = "Çï·Î¿ì!";		
+		// Stringì€ ê¸°ë³¸ ìë£Œí˜•ì´ ì•„ë‹Œ ì°¸ì¡° ìë£Œí˜•, ì°¸ì¡° ë³€ìˆ˜ëŠ” ê¸°ë³¸ì ìœ¼ë¡œ ì£¼ì†Œê°’ì„ ê°–ëŠ”ë‹¤.
+		String text = null; //ë„ì€ ì°¸ì¡°ë³€ìˆ˜ì— ì£¼ì†Œê°’ì´ ì—†ìŒ
+		//text = new String("Hello!"); newëŠ” ë©”ëª¨ë¦¬ì— ë¬¸ìì—´ ê³µê°„ì„ ë§Œë“¬
+//		text = new String("í—¬ë¡œìš°!");
+		text = "í—¬ë¡œìš°!";		
 		System.out.println(text);
 		
 		String[] texts = null;
@@ -18,9 +18,9 @@ public class StringArray2 {
 		
 		System.out.println();
 		
-		texts[0] = new String("ÇÏÀÌ!");
-		texts[1] = "¾È³ç ?";
-		texts[2] = "±Â¹ÙÀÌ!";
+		texts[0] = new String("í•˜ì´!");
+		texts[1] = "ì•ˆë…• ?";
+		texts[2] = "êµ¿ë°”ì´!";
 		
 		for(String word: texts) {
 			System.out.println(word);

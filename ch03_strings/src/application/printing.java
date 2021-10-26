@@ -3,11 +3,11 @@ package application;
 public class printing {
 
 	public static void main(String[] args) {
-		// ¹®ÀÚ¿­Àº + °¡´É
-		String name= "È«±æµ¿";
-		System.out.println("³» ÀÌ¸§Àº "+ name);
+		// ë¬¸ìì—´ì€ + ê°€ëŠ¥
+		String name= "í™ê¸¸ë™";
+		System.out.println("ë‚´ ì´ë¦„ì€ "+ name);
 		
-		String text = "³ªÀÇ ÀÌ¸§: "; 
+		String text = "ë‚˜ì˜ ì´ë¦„: "; 
 		String endofsentence=".";
 		
 		System.out.println(text+name+endofsentence);

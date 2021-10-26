@@ -1,7 +1,7 @@
 package entities;
 
 public class Fruit {
-	//ÇÁ·ÎÅØÆ¼µå Á¢±ÙÁöÁ¤ÀÚ 
+	//í”„ë¡œí…í‹°ë“œ ì ‘ê·¼ì§€ì •ì 
 	protected int id;
 	
 	@Override

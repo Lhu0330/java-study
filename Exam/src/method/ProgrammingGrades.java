@@ -7,9 +7,9 @@ public class ProgrammingGrades {
 		int score2= 85;
 		int score3= 76;
 		
-		System.out.printf("%dÁ¡ -> %s\n", score1, grade(score1));
-		System.out.printf("%dÁ¡ -> %s\n", score2, grade(score2));
-		System.out.printf("%dÁ¡ -> %s\n", score3, grade(score3));
+		System.out.printf("%dì  -> %s\n", score1, grade(score1));
+		System.out.printf("%dì  -> %s\n", score2, grade(score2));
+		System.out.printf("%dì  -> %s\n", score3, grade(score3));
 		
 	}
 	

@@ -7,42 +7,42 @@ public class Ex1 {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 
-		System.out.println("¸Ş´º");
+		System.out.println("ë©”ë‰´");
 		System.out.println("====\n");
-		System.out.println("1.ÇÁ¸°Æ® 'Çï·Î¿ì'");
-		System.out.println("2.ÇÁ¸°Æ® '¾È³ç?'");
-		System.out.println("3. ÇÁ·Î±×·¥ Á¾·á\n");
+		System.out.println("1.í”„ë¦°íŠ¸ 'í—¬ë¡œìš°'");
+		System.out.println("2.í”„ë¦°íŠ¸ 'ì•ˆë…•?'");
+		System.out.println("3. í”„ë¡œê·¸ë¨ ì¢…ë£Œ\n");
 
-		System.out.println("¿É¼ÇÀ» ¼±ÅÃ>");
+		System.out.println("ì˜µì…˜ì„ ì„ íƒ>");
 		int option = scanner.nextInt();
 
 //		if (option == 1) {
-//			System.out.println("Çï·Î¿ì");
+//			System.out.println("í—¬ë¡œìš°");
 //		} else if (option == 2) {
-//			System.out.println("¾È³ç?");
+//			System.out.println("ì•ˆë…•?");
 //		} else if (option == 3) {
-//			System.out.println("Á¾·áÇÕ´Ï´Ù...");
+//			System.out.println("ì¢…ë£Œí•©ë‹ˆë‹¤...");
 //		} else if (option == 10000) {
-//			System.out.println("ÀÌ½ºÅÍ¿¡±×¸¦ ¹ß°ßÇß½À´Ï´Ù.");
+//			System.out.println("ì´ìŠ¤í„°ì—ê·¸ë¥¼ ë°œê²¬í–ˆìŠµë‹ˆë‹¤.");
 //		} else {
-//			System.out.println("Àß¸øµÈ ¿É¼ÇÀÔ´Ï´Ù.");
+//			System.out.println("ì˜ëª»ëœ ì˜µì…˜ì…ë‹ˆë‹¤.");
 //		}
 
 		switch (option) {
 		case 1:
-			System.out.println("Çï·Î¿ì");
+			System.out.println("í—¬ë¡œìš°");
 			break;
 		case 2:
-			System.out.println("¾È³ç ?");
+			System.out.println("ì•ˆë…• ?");
 			break;
 		case 3:
-			System.out.println("Á¾·áÇÕ´Ï´Ù...");
+			System.out.println("ì¢…ë£Œí•©ë‹ˆë‹¤...");
 			break;
 		case 10000:
-			System.out.println("ÀÌ½ºÆ®¿¡±×¸¦ ¹ß°ßÇß½À´Ï´Ù.");
+			System.out.println("ì´ìŠ¤íŠ¸ì—ê·¸ë¥¼ ë°œê²¬í–ˆìŠµë‹ˆë‹¤.");
 			break;
 		default:
-			System.out.println("Àß¸øµÈ ¿É¼ÇÀÔ´Ï´Ù.");
+			System.out.println("ì˜ëª»ëœ ì˜µì…˜ì…ë‹ˆë‹¤.");
 		}
 	}
 

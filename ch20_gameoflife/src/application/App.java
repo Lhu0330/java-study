@@ -5,7 +5,7 @@ import javax.swing.SwingUtilities;
 public class App {
 
 	public static void main(String[] args) {
-		// ÇÁ·Î±×·¥½ÃÀÛ
+		// í”„ë¡œê·¸ëž¨ì‹œìž‘
 		SwingUtilities.invokeLater(new Runnable() {
 			public void run() {
 				new MainFrame();

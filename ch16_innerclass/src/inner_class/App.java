@@ -2,7 +2,7 @@ package inner_class;
 
 public class App implements Runnable {
 
-	private String name = "¹ÌÅ°¸¶¿ì½º";
+	private String name = "ë¯¸í‚¤ë§ˆìš°ìŠ¤";
 	
 	public static void main(String[] args) {
 		new App().start();
@@ -10,16 +10,16 @@ public class App implements Runnable {
 	}
 	
 	private void start() {
-		//activate ¸Ş¼Òµå ½ÇÇà¹æ¹ı
-		//1 appÅ¬·¡½º¿¡ Runnable ±¸Çö
+		//activate ë©”ì†Œë“œ ì‹¤í–‰ë°©ë²•
+		//1 appí´ë˜ìŠ¤ì— Runnable êµ¬í˜„
 		activate(this);
-		//2 ÀÍ¸íÅ¬·¡½º
+		//2 ìµëª…í´ë˜ìŠ¤
 		activate(new Runnable() {
 			public void run() {
 				System.out.println(name);
 			}
 		});
-		//3 ¸Ş¼Òµå ÀÌ³ÊÅ¬·¡½º
+		//3 ë©”ì†Œë“œ ì´ë„ˆí´ë˜ìŠ¤
 		class Runner1 implements Runnable{
 			public void run() {
 				System.out.println(name);

@@ -8,18 +8,18 @@ public class App {
 	
 
 	public static void main(String[] args) {
-		// ½ºÅ×Æ½ ¸Ş¼Òµå getCount »ç¿ë
-		final String CAT_COUNT = "°í¾çÀÌ ¼ıÀÚ: %d\n";
+		// ìŠ¤í…Œí‹± ë©”ì†Œë“œ getCount ì‚¬ìš©
+		final String CAT_COUNT = "ê³ ì–‘ì´ ìˆ«ì: %d\n";
 		
-		Cat cat1 = new Cat("¸¶Æ¿´Ù");
-		Cat cat2 = new Cat("¶óÀÌ¾ğ");
-		Cat cat3 = new Cat("¿ï¹ö¸°");
+		Cat cat1 = new Cat("ë§ˆí‹¸ë‹¤");
+		Cat cat2 = new Cat("ë¼ì´ì–¸");
+		Cat cat3 = new Cat("ìš¸ë²„ë¦°");
 		
 		System.out.println(cat1.toString());
 		System.out.println(cat2.toString());
 		System.out.println(cat3.toString());
 		
-		//string.formatÀº printf¸¦ ¹®ÀÚ¿­·Î Ç¥Çö ¸®ÅÏ
+		//string.formatì€ printfë¥¼ ë¬¸ìì—´ë¡œ í‘œí˜„ ë¦¬í„´
 		String catCount = String.format(CAT_COUNT, Cat.getCount());
 		System.out.println(catCount);
 

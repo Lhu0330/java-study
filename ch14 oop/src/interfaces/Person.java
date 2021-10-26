@@ -4,7 +4,7 @@ public class Person implements Describable {
 
 	@Override
 	public String getDescription() {
-		return "ÄÄÇ»ÅÍ ÀÔ´Ï´Ù.";
+		return "ì»´í“¨í„° ì…ë‹ˆë‹¤.";
 	}
 	
 	

@@ -3,7 +3,7 @@ package inheritance;
 public class App {
 
 	public static void main(String[] args) {
-		// »õ´Â µ¿¹°À» »ó¼Ó¹ŞÀ½.
+		// ìƒˆëŠ” ë™ë¬¼ì„ ìƒì†ë°›ìŒ.
 		Animal animal1 = new Animal();
 		animal1.eat();
 		

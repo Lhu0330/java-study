@@ -3,7 +3,7 @@ package application;
 public class Booleanand {
 
 	public static void main(String[] args) {
-		// ==, !=, !(¹İ´ë) , &&(and), ||(or)
+		// ==, !=, !(ë°˜ëŒ€) , &&(and), ||(or)
 		
 		boolean isRaining = false;
 		boolean haveUmbrella = true;
@@ -16,18 +16,18 @@ public class Booleanand {
 			
 		}
 		
-		System.out.println("Ã¹¹øÂ° °æ¿ì: "+ takeUmbrella);
+		System.out.println("ì²«ë²ˆì§¸ ê²½ìš°: "+ takeUmbrella);
 		
-		//and ¿¬»êÀÚ &&
+		//and ì—°ì‚°ì &&
 		if(isRaining && haveUmbrella) {
 			takeUmbrella = true;
 		}
 		
-		System.out.println("µÎ¹øÂ° °æ¿ì: "+ takeUmbrella);
+		System.out.println("ë‘ë²ˆì§¸ ê²½ìš°: "+ takeUmbrella);
 		
-		//»ïÇ×Á¶°Ç ¿¬»êÀÚ
+		//ì‚¼í•­ì¡°ê±´ ì—°ì‚°ì
 		takeUmbrella = isRaining && haveUmbrella ? true : false;
-		System.out.println("¼¼¹øÂ° °æ¿ì: "+ takeUmbrella);
+		System.out.println("ì„¸ë²ˆì§¸ ê²½ìš°: "+ takeUmbrella);
 
 		
 		

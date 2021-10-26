@@ -8,12 +8,12 @@ class Person {
 public class ClassObject {
 
 	public static void main(String[] args) {
-		// Å¬·¡½º¶õ ¼³°èµµ·Î ½ÇÁ¦ »ç¿ë°¡´ÉÇÑ °´Ã¼¸¦ »ı¼ºÇÔ
+		// í´ë˜ìŠ¤ë€ ì„¤ê³„ë„ë¡œ ì‹¤ì œ ì‚¬ìš©ê°€ëŠ¥í•œ ê°ì²´ë¥¼ ìƒì„±í•¨
 		Person p1 = new Person();
-		p1.name = "Æë¼ö";
+		p1.name = "í­ìˆ˜";
 		
 		Person p2 = new Person();
-		p2.name = "±æµ¿";
+		p2.name = "ê¸¸ë™";
 		
 		System.out.println(p1.name);
 		System.out.println(p2.name);		

@@ -3,10 +3,10 @@ package method;
 public class Pork {
 
 	public static void main(String[] args) {
-		// 1ÀÎºĞ 180g 1gÀº 5.179kcal 3ÀÎºĞ Ä®·Î¸® 3*180*5.179
+		// 1ì¸ë¶„ 180g 1gì€ 5.179kcal 3ì¸ë¶„ ì¹¼ë¡œë¦¬ 3*180*5.179
 		int x = 3;
 		double result = (Math.round(calKcal(x)*100))/100.0;
-		System.out.println("»ï°ã»ì 3ÀÎºĞ : " + result);
+		System.out.println("ì‚¼ê²¹ì‚´ 3ì¸ë¶„ : " + result);
 
 	}
 	

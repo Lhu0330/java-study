@@ -7,18 +7,18 @@ public class Ex1 {
 	public static void main(String[] args) {
 
 		Scanner scanner = new Scanner(System.in);
-		final int NLM = 3; // ¹è¿­ÀÇ Å©±â
+		final int NLM = 3; // ë°°ì—´ì˜ í¬ê¸°
 
 		int[] numbers = new int[NLM];
 
 		for (int i = 0; i < NLM; i++) {
-			System.out.println("¼ıÀÚ¸¦ ÀÔ·Â: ");
+			System.out.println("ìˆ«ìë¥¼ ì…ë ¥: ");
 			numbers[i] = scanner.nextInt();
 		}
 
 		scanner.close();
 
-		System.out.println("ÀÔ·ÂÇÑ °ªÀº: ");
+		System.out.println("ì…ë ¥í•œ ê°’ì€: ");
 
 		int total = 0;
 		for (int i = 0; i < NLM; i++) {

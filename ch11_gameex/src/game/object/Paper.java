@@ -4,6 +4,6 @@ public class Paper extends Gameobject {
 	
 	public Paper() {
 		setId(2);
-		setName("º¸");
+		setName("ë³´");
 	}
 }

@@ -5,13 +5,13 @@ import java.util.Scanner;
 public class userinput {
 
 	public static void main(String[] args) {
-		// ÀÔ·ÂÀ» ¹Ş´Â Å¬·¡½º scanner ÀÌ¿ë
+		// ì…ë ¥ì„ ë°›ëŠ” í´ë˜ìŠ¤ scanner ì´ìš©
 		Scanner scanner = new Scanner(System.in);
-		System.out.print("¿Âµµ¸¦ ÀÔ·ÂÇØ ÁÖ¼¼¿ä : ");
+		System.out.print("ì˜¨ë„ë¥¼ ì…ë ¥í•´ ì£¼ì„¸ìš” : ");
 		double c = scanner.nextDouble();
 		double f = (c*9/5)+32;
 		
-		System.out.println("¼·¾¾ "+c+"´Â È­¾¾"+f+"ÀÌ´Ù.");
+		System.out.println("ì„­ì”¨ "+c+"ëŠ” í™”ì”¨"+f+"ì´ë‹¤.");
 
 	}
 

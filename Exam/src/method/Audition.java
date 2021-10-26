@@ -3,7 +3,7 @@ package method;
 public class Audition {
 
 	public static String test(double vocal, double dance) {
-		return vocal*dance >= 70.0 ? "ÇÕ°İ" : "ºÒÇÕ°İ" ;
+		return vocal*dance >= 70.0 ? "í•©ê²©" : "ë¶ˆí•©ê²©" ;
 	}
 	
 	public static void main(String[] args) {
@@ -12,9 +12,9 @@ public class Audition {
 		double kateVocal = 9.2;
 		double kateDance = 7.8;
 		
-		//°á°ú Ãâ·Â
-		System.out.printf("TomÀÇ ¿Àµğ¼Ç °á°ú: %s\n", test(tomVocal, tomDance));
-		System.out.printf("kateÀÇ ¿Àµğ¼Ç °á°ú: %s\n", test(kateVocal, kateDance));
+		//ê²°ê³¼ ì¶œë ¥
+		System.out.printf("Tomì˜ ì˜¤ë””ì…˜ ê²°ê³¼: %s\n", test(tomVocal, tomDance));
+		System.out.printf("kateì˜ ì˜¤ë””ì…˜ ê²°ê³¼: %s\n", test(kateVocal, kateDance));
 		
 
 	}

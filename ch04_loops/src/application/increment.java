@@ -3,7 +3,7 @@ package application;
 public class increment {
 
 	public static void main(String[] args) {
-		// Á¤¼ö°ªÀ» 1¾¿ Áõ°¡ 1¾¿ °¨¼Ò => ¹Ýº¹¹®
+		// ì •ìˆ˜ê°’ì„ 1ì”© ì¦ê°€ 1ì”© ê°ì†Œ => ë°˜ë³µë¬¸
 		int count = 0;
 		
 		count = count +1;

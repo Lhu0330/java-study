@@ -3,11 +3,11 @@ package application;
 public class Break {
 
 	public static void main(String[] args) {
-		// break ¹İº¹¹® ¾È¿¡¼­ »ç¿ë½Ã ¹İº¹¹®À» ºüÁ®³ª¿È
+		// break ë°˜ë³µë¬¸ ì•ˆì—ì„œ ì‚¬ìš©ì‹œ ë°˜ë³µë¬¸ì„ ë¹ ì ¸ë‚˜ì˜´
 		int count = 1;
 
 		while (true) {
-			System.out.println("Çï·Î¿ì." + count);
+			System.out.println("í—¬ë¡œìš°." + count);
 
 			if (count++ == 5) {
 				break;
