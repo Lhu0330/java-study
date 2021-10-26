@@ -2,6 +2,8 @@ package application;
 
 import javax.swing.SwingUtilities;
 
+import gui.MainFrame;
+
 public class App {
 
 	public static void main(String[] args) {
@@ -9,6 +11,7 @@ public class App {
 		SwingUtilities.invokeLater(new Runnable() {
 			public void run() {
 				new MainFrame();
+				
 			}
 		});
 	}
