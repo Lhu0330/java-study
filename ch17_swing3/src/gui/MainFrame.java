@@ -1,15 +1,18 @@
 package gui;
 
-import java.awt.BorderLayout;
+import java.awt.*;
 import javax.swing.JFrame;
 
 
 public class MainFrame extends JFrame {
 	private static final long serialVersionUID = 1L;
+
+	
+	
 	
 	public MainFrame(String title) {
 		super(title); //JFrame에 타이틀을 생성하도록
-		
+				
 		Mainpanel mainPanel = new Mainpanel();
 		
 		setLayout(new BorderLayout()); //메인프레임창에 컴포넌트를 붙이기 위함
