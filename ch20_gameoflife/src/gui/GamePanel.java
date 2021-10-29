@@ -9,14 +9,15 @@ import model.World;
 public class GamePanel extends JPanel {
 	private static final long serialVersionUID = 1L;
 
-	private final static int CELLSIZE = 100; // 격자의 크기 설정
+	private final static int CELLSIZE = 30; // 격자의 크기 설정
 	private final static Color backgroundColor = Color.BLACK; // 배경색 검은색
 	private final static Color gridColor = Color.GRAY; // 격자선색 회색
 
 	private int topBottomMargin; // 위아래 마진
 	private int leftRightMargin; // 왼쪽 오른쪽 마진
 	private World world;
-
+	
+	
 	public GamePanel() {
 		// 게임패널을 생성시에 이벤트중(마우스 이벤트 추가)
 		addMouseListener(new MouseAdapter() {
@@ -56,6 +57,10 @@ public class GamePanel extends JPanel {
 
 		if (world == null) {
 			world = new World(rows, cols);
+		} else {
+			if(world.getRows() != rows || world.getColumns() != cols) {
+				world = new World(rows, cols);
+			}
 		}
 
 //		world.setCell(0, 0, true); // grid 이중배열에 좌표(줄,열) 값을 true로 set
@@ -103,6 +108,23 @@ public class GamePanel extends JPanel {
 
 		}
 
+	}
+	
+	public void randomize() {
+		world.randomize();
+		repaint();
+	}
+	
+	public void clear() {
+		//백스페이스를 눌렀을대 => 모든 셀을 false로 검은색
+		world.clear();
+		repaint();
+	}
+
+	public void next() {
+		world.next();
+		repaint();
+		
 	}
 
 }
