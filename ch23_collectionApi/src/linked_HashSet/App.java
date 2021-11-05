@@ -1,12 +1,12 @@
-package hashSet;
+package linked_HashSet;
 
-import java.util.HashSet;
+import java.util.LinkedHashSet;
 
 public class App {
 
 	public static void main(String[] args) {
-		
-		HashSet<String> fruits = new HashSet<>();
+		//링크드 해쉬셋 : 중복안되고 입력된 순서대로 출력
+		LinkedHashSet<String> fruits = new LinkedHashSet<>();
 		
 		fruits.add("사과");
 		fruits.add("바나나");
@@ -18,9 +18,10 @@ public class App {
 		
 		System.out.println(fruits.contains("오렌지"));
 		
-		for(var fruit : fruits) {
-			System.out.println(fruit);
+		for(String f : fruits) {
+			System.out.println(f);
 		}
+
 	}
 
 }
