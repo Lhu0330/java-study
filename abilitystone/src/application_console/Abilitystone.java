@@ -1,4 +1,4 @@
-package application;
+package application_console;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;

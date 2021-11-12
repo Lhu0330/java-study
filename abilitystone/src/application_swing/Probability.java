@@ -1,20 +1,21 @@
-package application_console;
+package application_swing;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 import java.util.Random;
 
-
+import javax.swing.JLabel;
+import javax.swing.JLabel.*;
 
 public class Probability {
 
 	Random r = new Random();
 	Random r2 = new Random();
 	double n = 0.75;
-	List<String> t1 = new ArrayList<>();
-	List<String> t2 = new ArrayList<>();
-	List<String> t3 = new ArrayList<>();
+	String t1;
+	String t2;
+	String t3;
 	int c1 = 0;
 	int c2 = 0;
 	int c3 = 0;
@@ -30,17 +31,17 @@ public class Probability {
 	
 	
 	
-	public void q1() {
+	public String q1() {
 		
 		double num = r.nextDouble();
 		if (num <= n) {
-			t1.add(" o");
+			t1=" o ";
 			if (n <= 0.26) {
 			} else {
 				n = n - 0.1;
 			}
 		} else {
-			t1.add(" x");
+			t1=" x ";
 			if (n >= 0.74) {
 
 			} else {
@@ -48,18 +49,19 @@ public class Probability {
 			}
 		}
 		c1++;
+		return t1;
 	}
 
-	public void q2() {
+	public String q2() {
 		double num = r.nextDouble();
 		if (num <= n) {
-			t2.add(" o");
+			t2=" o ";
 			if (n <= 0.26) {
 			} else {
 				n = n - 0.1;
 			}
 		} else {
-			t2.add(" x");
+			t2=" x ";
 			if (n >= 0.74) {
 
 			} else {
@@ -67,18 +69,19 @@ public class Probability {
 			}
 		}
 		c2++;
+		return t2;
 	}
 
-	public void q3() {
+	public String q3() {
 		double num = r.nextDouble();
 		if (num <= n) {
-			t3.add(" o");
+			t3=" o ";
 			if (n <= 0.26) {
 			} else {
 				n = n - 0.1;
 			}
 		} else {
-			t3.add(" x");
+			t3=" x ";
 			if (n >= 0.74) {
 
 			} else {
@@ -86,6 +89,7 @@ public class Probability {
 			}
 		}
 		c3++;
+		return t3;
 	}
 
 	public void display() {
@@ -102,50 +106,14 @@ public class Probability {
 		}while(a);
 		
 	
-		System.out.println(sel1);
-		t1.forEach(t -> {
-			System.out.print(t);
-		});
-		
-		int f1 = Collections.frequency(t1, " o");
-		System.out.print(" 성공횟수: " + Integer.toString(f1)+ "회");
-		System.out.println();
-		
-		System.out.println();
-		System.out.println(sel2);
-		t2.forEach(t -> {
-			System.out.print(t);
-		});
-		
-		int f2 = Collections.frequency(t2, " o");
-		System.out.print(" 성공횟수: " + Integer.toString(f2)+ "회");
-		
-		System.out.println();
-		
-		System.out.println();
-		
-		System.out.println(sel3);
-		t3.forEach(t -> {
-			System.out.print(t);
-		});
-		
-		int f3 = Collections.frequency(t3, " o");
-		System.out.print(" 성공횟수: " + Integer.toString(f3)+ "회");
-		System.out.println();
-		
-		
-		System.out.printf("현재 확률은 %.0f%%입니다.", n*100);
-		System.out.println();
-		
-		
 	}
-
 	
 
+	
 	public void clear() {
-		t1.clear();
-		t2.clear();
-		t3.clear();
+//		t1.clear();
+//		t2.clear();
+//		t3.clear();
 		c1 = 0;
 		c2 = 0;
 		c3 = 0;
@@ -158,3 +126,5 @@ public class Probability {
 	
 
 }
+
+
