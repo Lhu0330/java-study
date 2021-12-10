@@ -2,16 +2,20 @@ package ch14;
 
 import java.net.ServerSocket;
 import java.net.Socket;
+import java.nio.file.attribute.AclEntry;
 
 public class EchoServer {
 
 	public EchoServer() {
+		//java.io, java.net, java.sqlê±°ì˜ ì˜ˆì™¸ê°€ëŠ¥ì„±ì´ ìˆëŠ” ìƒì„±ì, ë©”ì†Œë“œ
 		try {
-			int cnt = 0; //clientÀÇ Á¢¼Ó°¹¼ö
-			ServerSocket server = new ServerSocket(8000);
-			System.out.println("ServerSocket Start.........");
+			int port = 8000;
+			int cnt = 0; //clientì˜ ì ‘ì† ê°¯ìˆ˜
+			ServerSocket server = new ServerSocket(port);
+			System.out.println("ServerSocket Start......");
 			while(true) {
-				Socket sock = server.accept();//wait
+				//clientê°€ ì ‘ì†í• ë•ê°€ì§€ ëŒ€ê¸° ìƒíƒœ
+				Socket sock = sever.accept();
 				
 				cnt++;
 				System.out.println("Client"+cnt+"Socket");
@@ -21,13 +25,17 @@ public class EchoServer {
 		}
 	}
 	
-	//Å¬¶óÀÌ¾ğÆ® ´ã´çÀº thread·Î ¸¸µé¾î¾ß ÇÑ´Ù.(³»ºÎÅ¬·¡½º)
 	
-	class EchoThread extends Thread{
-		@Override
-		public void run() {
-			
-		}
+	//ë‚´ë¶€ í´ë˜ìŠ¤ë¡œ clientì˜ ëŒ€ì‘ì„ ê°ê° í•˜ê¸° ìœ„í•´ Thread ê¸°ëŠ¥ì˜ í´ë˜ìŠ¤ ìƒˆì„±
+	class EchoThread extends Thread {
+		try {
+			this.sock = sock;
+		} catch(Exception e) 
+	}
+	
+	@Override
+	public void run() {
+		
 	}
 	
 	
